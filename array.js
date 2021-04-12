@@ -28,3 +28,12 @@ console.log(myArray);
 delete myArray[1];
 console.log(myArray);
 //hasilnya akan ada <1 empty item>
+
+//mengisi element array yang kosong
+myArray[1] = "data terisi";
+console.log(myArray);
+
+//menghapus element array dan datanya dengan splice
+myArray.splice(1, 1); //menghapus index ke 0 sebanya 1 element
+//menhapus 'data terisi'
+console.log(myArray);
